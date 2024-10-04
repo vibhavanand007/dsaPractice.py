@@ -1,0 +1,37 @@
+name,leetcode_link,topics,time,count
+00. Two Sum,https://leetcode.com/problems/two-sum/description/,"Array, Hash Table",10/2/2024 6:52,0
+0.01. Sum of List Element,,,10/2/2024 6:52,0
+0.02. Largest Element in the list,,,10/2/2024 6:52,0
+0.03. Remove Duplicates in a list,,,10/2/2024 6:52,0
+0.04. Check if all elements in a list are unique,,,10/2/2024 6:52,0
+0.05. Program to Reverse a list,,,10/2/2024 6:52,0
+0.06. Count Number of odd and even elements in a list,,,10/2/2024 6:52,0
+0.07. Check if list is subset of another list,,,10/2/2024 6:52,0
+0.08. Maximum difference between two consecutive element in list,,,10/2/2024 6:52,0
+0.09. Merge two Sorted List,,,10/2/2024 6:52,0
+0.10. Rotate a list,,,10/4/2024 4:35,0
+0.11. Merge 2 list into Dictionary,,,10/4/2024 4:39,0
+0.12. Merge multiple Dictionary,,,10/4/2024 4:39,0
+0.13. Words Frequency in a Sentence,,,10/4/2024 4:40,0
+0.14. Palindromic Tuple,,,10/4/2024 4:40,0
+0.15. Merge Dictionaries with common key,,,10/4/2024 4:40,0
+0.16. Maximum element in a list,,,10/4/2024 4:40,0
+0.17. Sum of elements in a list,,,10/4/2024 4:40,0
+0.18. Palindrome List ,,,10/4/2024 4:40,0
+0.19. Reverse a list,,,10/4/2024 4:40,0
+0.20. Rotate List --> ARR[D:] + ARR[:D],,,10/4/2024 4:40,0
+0.21. Plus One,https://leetcode.com/problems/plus-one/description/,"Array, Math",10/4/2024 4:40,0
+0.22. Is array sorted,,,10/4/2024 4:40,0
+01. Count Negative Numbers in a Sorted Matrix,https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/,"Array, Binary Search, Matrix",10/4/2024 4:40,0
+02. Find smallest letter greater than target,https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/,"Array, Binary Search",10/4/2024 4:40,0
+03. Find First and Last Position of Element in Sorted Array,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/,"Array, Binary Search",10/4/2024 4:40,0
+04. Minimum in Rotated Sorted Array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/,"Array, Binary Search",10/4/2024 4:40,0
+05. Search in Rotated Sorted Array,https://leetcode.com/problems/search-in-rotated-sorted-array/description/,"Array, Binary Search",10/4/2024 4:40,0
+06. Missing Number,https://leetcode.com/problems/missing-number/description/,"Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting",10/4/2024 5:00,0
+07. Move Zeroes,https://leetcode.com/problems/move-zeroes/description/,"Array, Two Pointers",10/4/2024 5:03,0
+08. Intersection of two lists,https://leetcode.com/problems/intersection-of-two-arrays/,"Array, Hash Table, Two Pointers, Binary Search, Sorting",10/4/2024 5:03,0
+09. Maximum Consecutive Ones,https://leetcode.com/problems/max-consecutive-ones/description/,Array,10/4/2024 5:06,0
+10. Maximum Subarray,https://leetcode.com/problems/maximum-subarray/description/,"Array, Divide and Conquer, Dynamic Programming",10/4/2024 5:06,0
+11. Pancal's Triangle,https://leetcode.com/problems/pascals-triangle/description/,"Array, Dynamic Programming",10/4/2024 5:06,0
+12. Rotate Image,https://leetcode.com/problems/rotate-image/description/,"Array, Math, Matrix",10/4/2024 5:06,0
+13. Matrix obtained by Rotation or not?,https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/,"Array, Matrix",10/4/2024 5:06,0

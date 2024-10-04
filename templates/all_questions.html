@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Questions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>All DSA Questions</h1>
+    </header>
+
+    <div class="container">
+        <h2>Questions List</h2>
+        <div class="question-list">
+            {% for question in questions %}
+                <div class="question">
+                    <h4>{{ question.name }}</h4>
+                    <p>LeetCode Link: <a href="{{ question.leetcode_link }}" target="_blank">{{ question.leetcode_link }}</a></p>
+                    <p>Topics: {{ question.topics }}</p>
+                    <p>Count: {{ question.count }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="pagination">
+            {% if page > 1 %}
+                <a href="{{ url_for('all_questions', page=page-1) }}" class="btn">Previous</a>
+            {% endif %}
+
+            <span>Page {{ page }} of {{ total_pages }}</span>
+
+            {% if page < total_pages %}
+                <a href="{{ url_for('all_questions', page=page+1) }}" class="btn">Next</a>
+            {% endif %}
+        </div>
+
+        <button onclick="window.location.href='/'">Back to Home</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Vibhav Anand</p>
+    </footer>
+</body>
+</html>
