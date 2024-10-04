@@ -68,5 +68,27 @@ def all_questions():
     questions = questions_to_display.to_dict(orient='records')
     return render_template('all_questions.html', questions=questions, page=page, total_pages=total_pages)
 
+# Route to Display Random Questions
+@app.route('/random_questions', methods=['GET'])
+def random_questions():
+    global df
+    random_questions_count = 5  # Set the number of random questions you want to display
+
+    if len(df) > random_questions_count:
+        random_questions_df = df.sample(n=random_questions_count)
+    else:
+        random_questions_df = df.copy()
+
+    # Increment the 'count' column for the selected random questions
+    df.loc[random_questions_df.index, 'count'] += 1
+
+    # Save the updated DataFrame to the CSV file
+    df.to_csv(file_path, index=False)
+
+    # Convert the selected questions to a dictionary for rendering in the template
+    questions = random_questions_df.to_dict(orient='records')
+
+    return render_template('random_questions.html', questions=questions)
+
 if __name__ == '__main__':
     app.run(debug=True)
